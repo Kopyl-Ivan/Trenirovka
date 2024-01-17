@@ -1,0 +1,182 @@
+body {
+    background-color: ​ #f8f8f8;
+}
+.menu > li > a {
+    font-size: 2em;
+    font-family: Arial;
+    font-weight: 400;
+    text-decoration: none;
+    color: cadetblue;
+}
+.menu {
+    width: 20%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    align-items: center;
+    
+}
+.pod_op_tov > h1 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.kr-op > div > h1 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.span-tov {
+    font-size: 30px;
+    font-family: Georgia;
+}
+.kr-op > div > p {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.pod-op {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.pod_op_tov > ul > li > p {
+    color: rgb(6, 83, 134);
+    font-size: 15px;
+    font-weight: 200;
+}
+.pod_op_tov > ul > li {
+    list-style-type: circle;
+}
+.kr-op > img {
+    border: 2px solid rgb(160, 153, 60);
+    width: 20em;
+    height: 20em;
+}
+.input {
+    width: 10%;
+    color: #930;
+    background-color: #ffe;
+    border: 2px solid olivedrab;
+    text-transform: capitalize;
+}
+.menu > li > a:hover {
+    color: aquamarine;
+}
+#email:active {
+    color: red;
+}
+table {
+    width: 1000px;
+    border: 2px solid black;
+    padding: 1em;
+}
+.tr1 {
+    height: 40px;
+}
+td {
+    width: 500px;
+    border: 1px solid black;
+}
+.kr-op > img:hover {
+    border: none;
+    padding: 2px;
+}
+.container {
+    width: 5em;
+    height: 5em;
+}
+.header-in {
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-in > img {
+    margin-left: 3em;
+}
+footer {
+    height: 3em;
+    background-color: lightgray;
+    text-align: right;
+}
+footer > p {
+    padding: 1em;
+}
+.kr-op {
+    display: flex;
+}
+.kr-op > div {
+    margin-left: 2em;
+}
+button:hover {
+    background-color: rgb(245, 214, 189);
+}
+button:active { /*можно сделать через :focus*/
+    background-color: gray;
+    color: white;
+}
+button > a {
+    text-decoration: none;
+    color: black;
+}
+button > a:hover {
+    background-color: rgb(245, 214, 189);
+    color: black;
+    text-decoration: none;
+}
+button > a:active { /*можно сделать через :focus*/
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+}
+.table-img {
+    width: 18em;
+    height: 18em;
+}
+.table-kat {
+    width: 900px;
+    border: none;
+    padding: 1em;
+}
+.kat-tov-divb {
+    display: flex;
+}
+.kat-tov-divm {
+    width: 18em;
+    height: 20em;
+    display: block;
+    margin-right: 1em;
+}
+.kat-tov-divm > a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+}
+.kat-tov-divm > a:hover {
+    color: #930;
+    text-decoration: underline;
+}
+.kat-tov-divm > a:active {
+    color: rgb(17, 0, 255);
+    text-decoration: underline;
+}
+.kontakt {
+    height: 30.3em;
+    background-color: beige;
+    padding: 1em;
+}
+header {
+    display: flex;
+}
+header > img {
+    width: 3em;
+}
